@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation bar</title>
+    <style>
+      div{
+          display: grid;
+          grid-template-columns: 1fr 1fr 50px;
+          justify-items: end;
+          align-items:end;
+          width: 100%;
+          background-color: #374550;
+          font-size: 20px;
+          color: white;
+          font-family: sans-serif;
+      }
+      #site-name{
+          justify-self: start;
+          align-self: start;
+          padding-left: 40px;
+      }
+      #navigation{
+          justify-self: end; 
+          align-self: end;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p id="site-name">Site name</p>
+      <p id="navigation">Navigation</p>
+    </div>
+  </body>
+</html>

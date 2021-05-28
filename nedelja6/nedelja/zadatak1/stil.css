@@ -1,0 +1,25 @@
+div{
+    width: 200px;
+    float: left;
+    margin-top: 10px;
+    }
+img{
+    height: 200px;
+    width: 200px;
+    border: solid rgba(128, 128, 128, 0.651) 0.1px;
+    }
+.naziv_proizvoda{
+    font-weight: bold;
+    text-align: center;
+    }
+.uz_popust{
+    color: red;
+    text-decoration: 0.5px line-through;
+    }
+.popust{
+    color:green;
+    }
+p{
+    line-height: 10px;
+    text-align: center;
+}

@@ -1,5 +1,5 @@
 <?php
-   echo "<p>1.</p>";
+   echo "<p>Zadatak 1.1.</p>";
 
    class Krevet{
 
@@ -32,7 +32,7 @@
    $krevet = new Krevet(30, 23, 'Hrast', 60000);
    echo $krevet;
 
-   echo "<p>2.</p>";
+   echo "<p>Zadatak 1.2.</p>";
 
    $kreveti = [
       new Krevet(40, 15, 'Plastika', mt_rand(40000, 50000)),
@@ -53,12 +53,13 @@
 
    echo $najskuplji_krevet;
 
-   echo "<p>3.</p>";
+   echo "<p>Zadatak 1.3.</p>";
 
    $novi_krevet = new Krevet(36, 28, 'Orah', 50000);
    echo $novi_krevet;
    echo "<br />";
+   $iznos_popusta = 10;
    $novi_krevet -> popust(10);
-   echo $novi_krevet;
+   echo "Sa popustom ($iznos_popusta%): ".$novi_krevet;
 
 ?>

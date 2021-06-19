@@ -21,7 +21,7 @@ SET time_zone = "+00:00";
 -- Database: `turisticka_agencija`
 --
 CREATE DATABASE IF NOT EXISTS `6414_zadatak2_nedelja` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-USE `6414_zadatak1_nedelja`;
+USE `6414_zadatak2_nedelja`;
 
 -- --------------------------------------------------------
 
